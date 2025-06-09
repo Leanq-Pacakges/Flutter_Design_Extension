@@ -52,7 +52,7 @@ class _FlutterDesignAppState extends State<FlutterDesignApp> {
           final Iterable<Locale> supportedLocales = design.supportedLocales;
           final Locale locale = design.lang;
           final ThemeData theme = ThemeData(
-            tabBarTheme: TabBarTheme(
+            tabBarTheme: TabBarThemeData(
               labelColor:
                   design.brand.getColorTokens(design.isDarkMode).brand.main,
               unselectedLabelColor: design.brand
