@@ -138,11 +138,6 @@ class _TextFieldsWidgetShowcaseScreenState
   final statusesTypesCheckingFocusNode = FocusNode();
   final statusesTypesCheckingTextEditingController = TextEditingController();
   Widget statusesTypes() {
-    var items = [
-      DemoClass("AAAA"),
-      DemoClass("BBBB"),
-      DemoClass("CCCC"),
-    ];
     return Column(
       children: [
         Text(
